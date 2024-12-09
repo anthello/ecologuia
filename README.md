@@ -1,5 +1,3 @@
-#  **🌍 ECOLOGUIA**
-
 <img src="logo.png" alt="Logo do Ecologuia" width="200">
 
 
@@ -44,7 +42,7 @@ A escolha do Omeka-S como plataforma baseou-se em suas funcionalidades adaptáve
 
 Inicialmente instalado em um servidor gratuito para demonstração, possui algumas limitações de upload de arquivos nos formulários de contribuição, porém totalmente funcional num servidor local ou pago.
 
-# 💾 GUIA PARA INSTALÇÃO
+## 💾 GUIA PARA INSTALÇÃO
  
 Esse guia explica como instalar o Omeka S (ECOLOGUIA) em um localhost (como XAMPP) e em um servidor web.
 
