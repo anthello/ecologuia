@@ -1,0 +1,8 @@
+logs/
+config/database.ini
+config/*.ini
+.env
+
+*.sql
+
+
