@@ -11,7 +11,7 @@ O Ecologuia tem como objetivo principal fomentar a discussão sobre mudanças cl
 
 ## 📋 **Sumário**
 
-- [Características](#características))
+- [Características](#características)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Licença](#licença)
@@ -46,7 +46,7 @@ Inicialmente instalado em um servidor gratuito para demonstração, possui algum
  
 Esse guia explica como instalar o Omeka S (ECOLOGUIA) em um localhost (como XAMPP) e em um servidor web.
 
-## **Pré-Requisitos do Sistema**
+## **Pré-Requisitos**
 
 Antes de instalar, certifique-se de que o ambiente atende aos requisitos mínimos:
 (Se usar o XAMPP, desconsidere estes requisitos, pois ele possui todos acoplados)
