@@ -9,6 +9,10 @@ O Ecologuia tem como objetivo principal fomentar a discussão sobre mudanças cl
 
 ---
 
+**CONHEÇA A VERSÃO INICIAL NO SITE:**  http://letramentoclimatico.infinityfreeapp.com
+
+Inicialmente instalado em um servidor gratuito para demonstração, possui algumas limitações de upload de arquivos nos formulários de contribuição, porém totalmente funcional num servidor local ou pago.
+
 ## 📋 **Sumário**
 
 - [Características](#características)
@@ -36,11 +40,6 @@ A escolha do Omeka-S como plataforma baseou-se em suas funcionalidades adaptáve
 12. Derivative Media: otimiza o desempenho e a compatibilidade dos arquivos de mídia, como pré visualizações, conversão de 
     formatos e redimensionamento.
 13. UniversalViewer: exibição interativa de diversos tipos de arquivos diretamente na plataforma
-
-
-**CONHEÇA A VERSÃO INICIAL NO SITE:**  http://letramentoclimatico.infinityfreeapp.com
-
-Inicialmente instalado em um servidor gratuito para demonstração, possui algumas limitações de upload de arquivos nos formulários de contribuição, porém totalmente funcional num servidor local ou pago.
 
 ## 💾 GUIA PARA INSTALÇÃO
  
