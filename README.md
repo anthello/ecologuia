@@ -1,5 +1,3 @@
-#  **🌍 ECOLOGUIA**
-
 <img src="logo.png" alt="Logo do Ecologuia" width="200">
 
 
@@ -11,9 +9,13 @@ O Ecologuia tem como objetivo principal fomentar a discussão sobre mudanças cl
 
 ---
 
+**CONHEÇA A VERSÃO INICIAL NO SITE:**  http://letramentoclimatico.infinityfreeapp.com
+
+Inicialmente instalado em um servidor gratuito para demonstração, possui algumas limitações de upload de arquivos nos formulários de contribuição, porém totalmente funcional num servidor local ou pago.
+
 ## 📋 **Sumário**
 
-- [Características](#características))
+- [Características](#características)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Licença](#licença)
@@ -39,16 +41,11 @@ A escolha do Omeka-S como plataforma baseou-se em suas funcionalidades adaptáve
     formatos e redimensionamento.
 13. UniversalViewer: exibição interativa de diversos tipos de arquivos diretamente na plataforma
 
-
-**CONHEÇA A VERSÃO INICIAL NO SITE:**  http://letramentoclimatico.infinityfreeapp.com
-
-Inicialmente instalado em um servidor gratuito para demonstração, possui algumas limitações de upload de arquivos nos formulários de contribuição, porém totalmente funcional num servidor local ou pago.
-
-# 💾 GUIA PARA INSTALÇÃO
+## 💾 GUIA PARA INSTALÇÃO
  
 Esse guia explica como instalar o Omeka S (ECOLOGUIA) em um localhost (como XAMPP) e em um servidor web.
 
-## **Pré-Requisitos do Sistema**
+## **Pré-Requisitos**
 
 Antes de instalar, certifique-se de que o ambiente atende aos requisitos mínimos:
 (Se usar o XAMPP, desconsidere estes requisitos, pois ele possui todos acoplados)
@@ -82,36 +79,39 @@ Opcionalmente, crie um usuário e senha com permissões para este banco.
 Passo 3: Configurar o Omeka S
 
 Abra o arquivo config/database.ini no diretório do Omeka S.
-Insira as configurações do banco de dados:
+Insira as configurações do banco de dados que você criou.
 
 host     = "localhost"
 username = "root"   ; Ou outro usuário criado
 password = ""       ; senha para o root
 dbname   = "omeka_s"
 
-Passo 4: Acessar o Omeka S
+Passo 4: Finalizando instalação  
+
+Clone e Substitua as seguintes pastas com os arquivos clonados no seu 
+diretório htdocs do XAMPP: modules, files, themes e config (crie o database.ini manualmente com
+os dados do seu banco de dados)
 
 No navegador, vá para http://localhost/omeka-s (caminho da pasta com o Omeka-S)
 Siga as instruções para configurar o administrador e finalizar a instalação.
-
-Agora é só acrescentar ou alterar coleções, ítens e Recursos ao site.
 
 **2. Instalação em Servidor Web**
 
 Passo 1: Configurar o Servidor
 
+Após baixar o Omeka-S, substitua as pastas mencionadas acima no seu diretório htdocs.
 Suba os arquivos no servidor:
 Use um cliente FTP (como FileZilla) ou um painel de controle para enviar os arquivos para o servidor.
 Coloque os arquivos na pasta pública (geralmente public_html ou www).
 
 Configurar as Permissões:
 Garanta que as pastas files/ e logs/ sejam graváveis.
-Execute no terminal (se tiver acesso SSH):
-chmod -R 755 files logs
 
 Passo 2: Configurar o Banco de Dados
+
 Crie um banco de dados no painel de controle do seu servidor (como cPanel ou Plesk).
 Anote o nome do banco, usuário e senha.
+
 Passo 3: Configurar o Omeka S
 Edite o arquivo config/database.ini e insira as credenciais do banco de dados criado
 
